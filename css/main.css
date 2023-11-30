@@ -187,10 +187,11 @@
     margin:0px;
     color:#CE2D89;
   }
-  .footer-part {
+  footer p {
     font-family: "soleil", sans-serif;
     font-weight: 600;
     font-style: normal;
+    text-align: center;
   }
   .contact-left a {
     font-family: "soleil", sans-serif;
@@ -276,9 +277,6 @@ display:none;
   .b-contact {
     background-color: #121734;
   }
-  .footer-part {
-    margin:0px;
-  }
   .contact-left a {
   color:#D8D8D8;
   text-decoration: none;
@@ -345,11 +343,13 @@ display:none;
   .work {
     display:none;
   }
-  .footer-part {
+  footer {
     color:white;
     background-color:#CE2D89;
-    padding:20px;
-    text-align:center;
+    padding:10px;
+    text-align: center;
+    display:flex;
+justify-content:center;
   }
 
 

@@ -3,7 +3,7 @@ main{
   flex-direction:column;
   min-height:100vh;
 }
-footer {
+.b-contact {
   margin-top:auto;
 }
 
@@ -65,12 +65,13 @@ nav {
     flex-direction: column;
     margin-top:50px;
     margin-bottom:80px;
+    margin-right:20px;
   }
   .type-section p {
     font-family: "soleil", sans-serif;
     font-weight: 200;
     font-style: normal;
-    max-width: 400px;
+    max-width: 550px;
     color: #606060;
     line-height: 25px;
     
@@ -240,6 +241,7 @@ margin-left:20px;
   color: #606060;
   line-height: 25px;
   margin-left:20px;
+  margin-right:20px;
 }
 .challenges h2 {
   margin-left:20px;
