@@ -6,7 +6,16 @@ main{
 .b-contact {
   margin-top:auto;
 }
-
+ /* SUI BELOW */
+ .images-sui img {
+  width:100%;
+  height:auto;
+ }
+ .images-sui {
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+ }
 
 
 
@@ -38,6 +47,23 @@ h1 {
 }
 .description h2 {
   color: #121734;
+}
+.description-sui p {
+  font-family: "soleil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  max-width: 550px;
+  color: #606060;
+  line-height: 25px;
+}
+.description-sui{
+ padding-top:40px;
+  margin:20px;
+  padding-bottom: 30px;
+}
+.description-sui h2 {
+color: #121734;
 }
 
 nav {
@@ -77,7 +103,7 @@ nav {
     
   } 
   .type-section img {
-    width:400px;
+    width:85%;
   }
   h2 {
     font-family: "soleil", sans-serif;
@@ -198,6 +224,10 @@ margin-left:20px;
 .landing-page-video {
   margin-top:50px;
 }
+.landing-page-video-sui {
+  margin-top:80px;
+  margin-bottom:80px;
+}
 
  /* DAILY LOGO CHALLENGE BELOW */
 
@@ -228,6 +258,10 @@ margin-left:20px;
   margin-top: 10px;
   color: #121734;
   font-size:18px;
+  margin-left:20px;
+}
+.image-grid img{
+width:100%;
 }
 .dlc-1, .dlc-2, .dlc-3, .dlc-4, .dlc-5, .dlc-6, .dlc-7, .dlc-8 {
   padding-bottom:20px;
@@ -454,6 +488,9 @@ margin-top:16px;
 .process-shimmer {
   margin-top:40px;
 }
+.process-sui {
+  margin-top:40px;
+}
 
 
 
@@ -500,6 +537,21 @@ margin-top:16px;
       .two-images {
         flex-direction: row;
       }
+ /* SUI BELOW */
+ .images-sui img {
+  width: 50%;
+ }
+ .description-sui p {
+  font-size:18px;
+}
+.description-sui {
+  display:flex;
+  flex-direction: row;
+  gap:70px;
+}
+      .images-sui {
+        flex-direction: row;
+       }
  /* DAILY LOGO CHALLENGE BELOW */
  .dlc-row1{
   flex-direction:row;
@@ -525,6 +577,9 @@ margin-top:16px;
   margin:20px;
  }
  .description{
+  margin-left:20px;
+ }
+ .description-sui{
   margin-left:20px;
  }
  .image-grid img {
@@ -655,6 +710,9 @@ height:700px;
 
 @media (min-width:1200px){ 
 .description{
+  margin-left:0px;
+}
+.description-sui{
   margin-left:0px;
 }
 .image-grid img {
