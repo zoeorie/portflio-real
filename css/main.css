@@ -236,13 +236,13 @@
     border:none;
     border-bottom:1px solid black;
     display:block;
-    width:350px;
+    width:250px;
   }
   .message-input {
   border: 1px solid black;
   display:block;
   height:70px;
-  width:350px;
+  width:250px;
   margin-top:10px;
   }
   .form-space-e {
@@ -303,6 +303,11 @@ display:none;
   .contact-left p {
     margin-left:0px;
     color: #D8D8D8;
+  }
+  .contact {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
   }
   .images-container {
     display:flex;
@@ -430,6 +435,19 @@ form {
     flex-direction: column;
     margin-bottom:40px;
   }
+  .single-input {
+    border:none;
+    border-bottom:1px solid black;
+    display:block;
+    width:350px;
+  }
+  .message-input {
+  border: 1px solid black;
+  display:block;
+  height:70px;
+  width:350px;
+  margin-top:10px;
+  }
 
 
     .wrapper{
@@ -455,8 +473,8 @@ form {
       font-size:65px;
     }
     .contact{
-      display:flex;
-      justify-content: space-between;
+flex-direction: row;     
+ justify-content: space-between;
     }
     .right-top hr{
       transform: rotate(90deg);
