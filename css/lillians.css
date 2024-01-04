@@ -487,6 +487,10 @@ margin-top:16px;
 .process-sui {
   margin-top:40px;
 }
+.about1 img {
+  width:100%;
+height:auto;
+}
 
 
 
@@ -696,6 +700,9 @@ height:700px;
 }
 .about {
   padding:50px;
+}
+.about1 img {
+  width:400px;
 }
 }
 
