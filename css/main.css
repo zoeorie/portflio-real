@@ -364,11 +364,6 @@ justify-content:center;
       height: 500px;
     }
   }
-  @media (min-width:600px){ 
-    .big-logo {
-      height: 700px;
-    }
-  }
   
   
   @media (min-width:800px){ 
@@ -379,7 +374,7 @@ justify-content:center;
   font-weight: 400;
   font-style: normal;
   position:relative;
-  top:790px;
+  top:605px;
   right:-230px;
   padding:8px 10px;
   font-size:16px;
@@ -454,7 +449,7 @@ form {
     margin:0 auto;
     }
     .big-logo {
-      height: 880px;
+      height: 700px;
     }
     .images-container{
       max-width: 1200px;
@@ -519,7 +514,7 @@ flex-direction: row;
   @media (min-width:900px){
     .work {
       position:relative;
-      top:780px;
+      top:595px;
       right:-260px;
       padding:10px 15px;
       font-size:16px;
@@ -530,7 +525,7 @@ flex-direction: row;
    @media (min-width:1000px){
     .work {
       position:relative;
-      top:770px;
+      top:585px;
       right:-270px;
       padding:10px 25px;
       font-size:18px;
@@ -539,7 +534,7 @@ flex-direction: row;
    @media (min-width:1100px){
     .work {
       position:relative;
-      top:765px;
+      top:570px;
       right:-290px;
       padding:10px 25px;
         }    
@@ -547,7 +542,7 @@ flex-direction: row;
    @media (min-width:1200px){
     .work {
       position:relative;
-      top:750px;
+      top:560px;
       right:-310px;
         }
       }
@@ -593,6 +588,13 @@ flex-direction: row;
                           right:-530px;
                             }
                           }
+                          @media (min-width:1800px){
+                            .work {
+                              position:relative;
+                              top:700px;
+                              right:-660px;
+                                }
+                              }
 
   @media (min-width:940px){
     .column1{
@@ -620,6 +622,11 @@ flex-direction: row;
       height: 370px;
       object-fit: cover;
       vertical-align: middle;
+    }
+  }
+  @media (min-width:1300px){ 
+    .big-logo {
+      height: 880px;
     }
   }
   
