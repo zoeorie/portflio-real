@@ -403,6 +403,23 @@ margin-top:16px;
   width:100%;
   height:auto;
 }
+.email-explained {
+  padding:30px;
+  border-radius:20px;
+color:white;
+display:flex;
+flex-direction: column;
+justify-content:center;
+background-color:#C45A89;
+}
+.email-explained p {
+  font-size:16px;
+  font-family: "soleil", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-top:10px;
+}
+
 .emails {
   display:flex;
   flex-direction:column;
