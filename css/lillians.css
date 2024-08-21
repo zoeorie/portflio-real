@@ -404,13 +404,11 @@ margin-top:16px;
   height:auto;
 }
 .email-explained {
-  padding:30px;
-  border-radius:20px;
-color:white;
 display:flex;
 flex-direction: column;
 justify-content:center;
-background-color:#C45A89;
+margin-left:20px;
+margin-right:20px;
 }
 .email-explained p {
   font-size:16px;
@@ -418,6 +416,9 @@ background-color:#C45A89;
   font-weight: 200;
   font-style: normal;
   margin-top:10px;
+    max-width: 550px;
+    color: rgb(96, 96, 96);
+    line-height: 25px;
 }
 
 .emails {
@@ -510,7 +511,7 @@ height:auto;
 }
 
 
-
+ /* HOME OVERLAY IMAGES TEST */
 
 
 
@@ -569,6 +570,11 @@ height:auto;
       .images-sui {
         flex-direction: row;
        }
+.sui-bottom-flex {
+  display:flex;
+  align-items: center;
+  margin-bottom:80px;
+}
  /* DAILY LOGO CHALLENGE BELOW */
  .dlc-row1{
   flex-direction:row;
@@ -613,7 +619,7 @@ height:auto;
   align-self: center;
 }
 .app-vid {
-width:30%;
+width:50%;
 }
 .landing-page {
   display:flex;
