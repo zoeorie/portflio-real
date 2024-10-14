@@ -295,7 +295,65 @@ width:100%;
   flex-direction:column;
 }
  /* SENIOR PROJ BELOW */
-
+.research-clouro{
+  display:flex;
+  gap:40px;
+  margin-bottom:20px;
+}
+.empathy-maps {
+  margin-bottom:40px;
+  margin-top:40px;
+}
+.user-personas-img {
+  margin-bottom:40px;
+}
+.user-journey-maps {
+  display:flex;
+  gap:20px;
+}
+.user-journey-maps img{
+  margin-bottom:40px;
+}
+.senior-p {
+  font-family: "soleil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  max-width: 550px;
+  color: #606060;
+  line-height: 25px;
+}
+.research-findings {
+  display:flex;
+  gap:20px;
+}
+h3 {
+  font-family: "soleil", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0px;
+  font-size: 20px;
+}
+.brand-stuff {
+  display:flex;
+  gap:40px;
+  margin-top:20px;
+  margin-bottom:60px;
+}
+.competitor-images {
+  display:flex;
+  gap:40px;
+  align-items:center;
+  justify-content: space-evenly;
+}
+.competitor-info {
+  margin-top:40px;
+  display:flex;
+  gap:40px;
+  align-items:center;
+  justify-content: space-between;
+  margin-bottom:100px;
+}
 
 
 
