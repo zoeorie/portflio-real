@@ -338,7 +338,7 @@ h3 {
   display:flex;
   gap:40px;
   margin-top:20px;
-  margin-bottom:60px;
+  margin-bottom:40px;
 }
 .competitor-images {
   display:flex;
@@ -352,6 +352,9 @@ h3 {
   gap:40px;
   align-items:center;
   justify-content: space-between;
+  margin-bottom:100px;
+}
+.moodboard {
   margin-bottom:100px;
 }
 
