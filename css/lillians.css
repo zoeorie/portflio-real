@@ -203,10 +203,11 @@ nav {
   nav ul {
     list-style-type: none;
     font-family: "figtree", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   display:flex;
-  gap: 50px;
+  align-items:center;
+  gap: 30px;
   }
   nav a {
     text-decoration:none;
@@ -960,6 +961,9 @@ margin-top:16px;
   margin:20px;
   margin-bottom:80px;
 }
+.main-about {
+  margin-top:30px;
+}
 .main-about img {
 margin-bottom:30px;
 }
@@ -1233,6 +1237,9 @@ button.prev i, button.next i {
     p {
         max-width: 650px;
     }
+    nav ul {
+    gap: 50px;
+    }
     .type-section {
         flex-direction: row;
         gap:50px;
@@ -1459,6 +1466,9 @@ width:50%;
  /* ABOUT BELOW */                            
 .main-about img {
 margin-bottom:0px;
+}
+.main-about {
+  margin-top:30px;
 }
 
  /* SUI BELOW */

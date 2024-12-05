@@ -180,9 +180,13 @@
     font-style: normal;
   padding-right:30px;
   display:flex;
-  gap: 50px;
+  align-items:center;
+  gap: 30px;
   color:#000000;
   background-color: white;
+  }
+  .instagram-link {
+margin-left: -20px;
   }
   ul a {
     text-decoration: none;
@@ -473,6 +477,12 @@ font-style: italic;
 .top {
   margin-bottom:50px;
 }
+.instagram-link {
+  margin-left: -30px;
+    }
+    .main-nav ul { 
+      gap:50px;
+    }
 
 
   /* Keyframes */
