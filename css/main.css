@@ -87,17 +87,33 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-  
   h1{
-    font-family: "soleil", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "ivypresto-headline", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size:45px;
   margin:0px;
+  line-height:55px;
+  }
+  h3 {
+    margin-bottom:0px;
   }
   .big-logo {
     height: 350px;
     position:relative;
     overflow-x: hidden;
+  }
+  button {
+    color:#FFFFFF;
+    background-color:#000;
+    padding: 8px 15px;
+    border:1px solid black;
+    border-radius:5px;
+    font-family:"figtree", sans-serif;
+  }
+  button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
   }
   .big-logo img{
     max-width: 100%;
@@ -117,25 +133,27 @@
   .top {
     display:flex;
     align-items:center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .left-top {
-    margin-left:25px;
-    margin-top:100px;
+    margin-left:20px;
+    margin-top:50px;
+    margin-right:20px;
   }
   .left-top h1 {
     font-size:45px;
-    color: #121734;
+    color: #000000;
     line-height:55px
   }
   .left-top p{
-    font-family: "soleil", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "figtree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   margin:0px;
   max-width:550px;
-  color:#606060;
+  color:#000000;
   margin-top:10px;
+  font-size:18px;
   }
   .contact-left {
     font-family: "soleil", sans-serif;
@@ -157,21 +175,22 @@
   }
   .main-nav ul {
     list-style-type: none;
-    font-family: "soleil", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "figtree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   padding-right:30px;
   display:flex;
   gap: 50px;
-  color:#CE2D89;
+  color:#000000;
   background-color: white;
   }
   ul a {
     text-decoration: none;
-    color:#CE2D89;
+    color:#000000;
   }
   .right-top{
     padding-bottom:90px;
+    display:none;
   }
   .right-top hr{
     transform: rotate(90deg);
@@ -193,7 +212,7 @@
     color:#CE2D89;
   }
   footer p {
-    font-family: "soleil", sans-serif;
+    font-family: "figtree", sans-serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -260,6 +279,7 @@
   justify-content: flex-end;
   margin-top: 25px;
   }
+  /*
   button {
     background-color:#CE2D89;
     border:none;
@@ -272,6 +292,7 @@
     color: #CE2D89;
     border: 1px solid #CE2D89;
   }
+  */
   .scroll {
 display:none;
 }
@@ -319,7 +340,7 @@ display:none;
     flex-wrap:wrap;
     padding:20px;
     padding-bottom:80px;
-    gap:20px;
+    gap:30px;
   }
   a {
     text-decoration: none;
@@ -342,19 +363,19 @@ display:none;
   .column1{
     display:flex;
     flex-direction: column;
-    gap:20px;
+    gap:30px;
   }
   .column2{
     display:flex;
     flex-direction: column;
-    gap:20px;
+    gap:30px;
   }
   .work {
     display:none;
   }
   footer {
     color:white;
-    background-color:#CE2D89;
+    background-color:#000000;
     padding:10px;
     text-align: center;
     display:flex;
@@ -363,8 +384,55 @@ justify-content:center;
   .column3{
     display:flex;
     flex-direction:column;
-    gap:20px;
+    gap:30px;
   }
+  .home-image-headers {
+    font-family: "figtree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
+    font-size: 20px;
+    color:#000000;
+    margin-top:20px;
+    margin-bottom:10px;
+  }
+
+  /*  TAGS */
+  .ui-tag {
+    background-color: #6896F8;
+    padding:5px 10px;
+    color:black;
+    font-family: "figtree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+   .branding-tag {
+    background-color: #FF7EF4;
+    padding:5px 10px;
+    color:black;
+    font-family: "figtree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+   .print-tag {
+    background-color: #FFF275;
+    padding:5px 10px;
+    color:black;
+    font-family: "figtree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+   .flex-tags-home {
+    display:flex;
+    gap:10px;
+   }
+   .hello-home {
+    font-family: "ivypresto-headline", serif;
+font-weight: 100;
+font-style: italic;
+   }
+
+
 
 
 
@@ -399,7 +467,12 @@ justify-content:center;
       color: #CE2D89;
       border: 1px solid #CE2D89;
     }
-
+    h1 {
+      font-size:55px;
+    }
+.top {
+  margin-bottom:50px;
+}
 
 
   /* Keyframes */
@@ -522,6 +595,8 @@ flex-direction: row;
   .right-top {
     display:none;
   }
+
+
   }
   @media (min-width:900px){
     .work {

@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/lillians.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://use.typekit.net/wky3lek.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <meta name="theme-color" content="#fafafa">
 
@@ -32,86 +32,167 @@
           <a href="index.html"><img src="./images/personal logo-navy.png" width="60px" alt="zoe logo"></a>
                 <ul>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="#contact-link">Contact</a>
+                  <li><a href=""></a>
           </ul>
         </nav>
       </header>
   <main>
     <div class="wrapper">
       <section class="description">
-      <h1>Shimmer Beauty</h1>
-      <p>For this project, the task was to develop a consumer brand that required a landing page, four email designs, and an app.</p>
-      <div class="goals">
-      <div class="d-c1">
-      <h2>Landing Page:</h2>
-      <p>The primary goal was to acquire user information to turn them into leads.</p>
-      <h2>Email Designs:</h2>
-      <p>Aimed to encourage users to continually interact with the brand and incentivize them to regularly purchase products.</p>
-      <h2>App:</h2>
-      <p>The main focus was on new users, with an emphasis on engaging onboarding screens that clearly demonstrate the value of the app to the user immediately.</p>
-    </div>
+        <h1>Shimmer Beauty</h1>
+        <h4 class="shimmer-h4">COSMETICS BRAND</h4>
+        <p>For this project, the task was to develop a consumer brand that required a landing page, four email designs, and an app.</p>
+        <span class="ui-tag">UI/UX</span>
+      <span class="branding-tag">Branding</span>
+        <div class="goals">
+          <div class="d-c1">
+            <div class="header-with-icon">
+              <h2 id="shimmer-h2">Landing Page:</h2>
+              <a href="#landing-page-header"><i class="fa-solid fa-arrow-right" id="shimmer-project-arrows"></i></a>
+            </div>
+            <p>The primary goal was to acquire user information to turn them into leads.</p>
+            <div class="header-with-icon">
+              <h2 id="shimmer-h2">Email Designs:</h2>
+              <a href="#email-header"><i class="fa-solid fa-arrow-right" id="shimmer-project-arrows"></i></a>
+            </div>
+            <p>Aimed to encourage users to continually interact with the brand and incentivize them to regularly purchase products.</p>
+            <div class="header-with-icon">
+              <h2 id="shimmer-h2">App:</h2>
+              <a href="#app-header"><i class="fa-solid fa-arrow-right" id="shimmer-project-arrows"></i></a>
+            </div>
+            <p>The main focus was on new users, with an emphasis on engaging onboarding screens that clearly demonstrate the value of the app to the user immediately.</p>
+          </div>
       <div class="d-c2">
       <h2>Solution:</h2>
       <p>I created a beauty brand called Shimmer Beauty that prioritizes inclusivity and individuality. Shimmer celebrates freedom of expression and meets consumers where they are in their makeup journey to showcase their unique shine. Everyone deserves to be a star, regardless of their makeup knowledge, preferred style, occupation, or lifestyle.</p>
     </div>
     </div>
     </section>
-    <h2 class="shimmer-subheaders"> Logo & Style Tile</h2>
-    <section class="shimmer-images">
-      <img src="images/logo-shimmer.png" alt="shimmer beauty logo" width="100%">
-<img src="images/Shimmer Beauty Style Tile-portfolio.png" alt="shimmer beauty style tile" width="100%">
+    <!--
+    <div class="progress-bar">
+      <div class="step-container">
+        <div id="step1" class="step">Landing Page</div>
+        <div class="connector"></div>
+      </div>
+      <div class="step-container">
+        <div id="step2" class="step">App</div>
+        <div class="connector"></div>
+      </div>
+      <div class="step-container">
+        <div id="step3" class="step">Emails</div>
+        <div class="connector"></div>
+      </div>
+    </div>
+    -->
+    
+  
+    
+
+    <h3 class="shimmer-subheaders">Style Tile</h3>
+    <section class="shimmer-style-tile">
+<img src="images/Shimmer Beauty Style Tile-portfolio.png" alt="shimmer beauty style tile">
 </section>
-<h2 class="shimmer-subheaders">User Personas</h2>
+<h3 class="shimmer-h3-up">User Personas</h3>
 <section class="user-personas">
-  <div class="up1">
-  <img src="images/up-shimmer1.png" alt="user persona for Shimmer beauty" class="up-first">
-  <img src="images/up-shimmer2.png" alt="user persona for Shimmer beauty">
-</div>
-<div class="up2">
-  <img src="images/up-shimmer3.png" alt="user persona for Shimmer beauty">
-</div>
+  <div class="carousel">
+    <button class="prev" onclick="showSlide(currentSlide - 1)">
+      <i class="fa-solid fa-arrow-left"></i> <!-- Left arrow -->
+    </button>
+    
+    <button class="next" onclick="showSlide(currentSlide + 1)">
+      <i class="fa-solid fa-arrow-right"></i> <!-- Right arrow -->
+    </button>
+    
+    <div class="carousel-images">
+      <img src="images/shimmer-user-persona1.png" alt="user persona for Shimmer beauty">
+      <img src="images/shimmer-user-persona2.png" alt="user persona for Shimmer beauty">
+      <img src="images/shimmer-user-persona3.png" alt="user persona for Shimmer beauty">
+    </div>
+
+    <!-- Pagination dots -->
+    <div class="dots-container">
+      <span class="dot" onclick="showSlide(0)"></span>
+      <span class="dot" onclick="showSlide(1)"></span>
+      <span class="dot" onclick="showSlide(2)"></span>
+    </div>
+  </div>
 </section>
+
+</section>
+
+
+
 <section class="project-1">
-    <h1 class="header-shimmer">Landing Page</h1>
+    <h2 class="shimmer-h2" id="landing-page-header">Landing Page</h2>
     <section class="landing-page">
       <img src="images/shimmer-computer-mockup.png" alt="shimmer beauty landing page mockup">
       <img src="images/shimmer instagram site mockup.png" alt="shimmer landing page">
     </section>
+    <section class="project-purpose-shimmer">
+<div class="type-project-purpose-shimmer">
+      <h3>Project Goals</h3>
+<p>Create a landing page for Shimmer Beauty that successfully obtains user information to convert them into leads. Through the use of the style guide, develop a unique look and feel for the brand that will translate to future deliverables.</p>
+</div>
+</section>
     <div class="process-shimmer">
-    <h2 class="shimmer-subheaders">Process</h2>
-    <iframe src="https://drive.google.com/file/d/1jZmeMzH-MuDicG4E3ncuHPyccIPMUOgw/preview" width="100%" height="400px" allow="autoplay"></iframe>
   </div>
+  <section class="flat-designs-shimmer">
+    <h3>Wireframe and Flat Design</h3>
+    <div class="flat-designs-container-shimmer">
+    <img src="images/shimmer-wireframes-final.png" alt="wireframes and flat designs for shimmer landing page">
+  </div>
+  </section>
     <div class="landing-page-video">
-    <h2 class="shimmer-subheaders">Protoype Walkthrough</h2>
+    <h3 class="shimmer-h3">Protoype Walkthrough</h3>
     <iframe width="100%" height="400px" src="https://www.youtube.com/embed/VHdXKUqP4EM?si=ZgLe9JQrAIP2YQT9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   </section>
   <section class="project-2">
-    <h1 class="header-shimmer">Email Designs</h1>
+    <h2 class="shimmer-h2" id="email-header">Email Designs</h1>
     <section class="emails">
     <img src="images/email mockups-2 phones 1.png" alt="email mockups for shimmer beauty with two phones">
     <div class="email-explained">
-      <h2>Primary Goal</h2>
+      <h3>Project Goals</h3>
       <p>The emails aim to encourage users to continually interact with the brand and incentivize them to regularly purchase products. These would come after users sign up for email notifications on the landing page. In my research, I discovered that buttons using unique, action-oriented language have a higher click rate than those using common words like "enter" or "submit," which guided my decisions in the copy and call-to-action components throughout the designs.</p>
     </div>
   </section>
-  <div class="process-shimmer">
-    <h2 class="shimmer-subheaders">Process</h2>
-    <iframe src="https://drive.google.com/file/d/1Wma1n93wj8OyYDGegjK8MnIMwYVn4WQu/preview" width="100%" height="400px" allow="autoplay"></iframe></iframe>
-</div>
+  <section class="shimmer-email-designs">
+    <h3 class="shimmer-h3">Wireframes</h3>
+    <div class="shimmer-email-container1">
+    <img src="images/shimmer-email-wireframes.png" alt="shimmer email wireframes">
+  </div>
+  <h3 class="shimmer-h3">Final Designs</h3>
+    <div class="shimmer-email-container2">
+    <img src="images/shimmer-email-flat.png" alt="flat designs for shimmer emails">
+  </div>
+  </section>
 </section>
 <section class="project-3">
-  <h1 class="header-shimmer">App Design</h1>
+  <h2 class="shimmer-h2" id="app-header">App Design</h2>
   <section class="app">
     <img src="images/App mockup-2 phones1.png" alt="app mockups for shimmer beauty with two phones">
     <img src="images/App mockup-2phones2.png" alt="app mockups for shimmer beauty with two phones">
   </section>
-  <div class="process-shimmer">
-  <h2 class="shimmer-subheaders">Process</h2>
-  <iframe src="https://drive.google.com/file/d/1jJVtWYJNKzCfATmtn9JvcyLFx8Ha-dqK/preview" width="100%" height="400px" allow="autoplay"></iframe>
+  <div class="app-goals">
+    <h3>Project Goals</h3>
+    <p>I aimed to create a clean, intuitive app interface for Shimmer Beauty that consistently represents the brand identity and values. Since this is centered around the first-time user experience, I prioritized immediately demonstrating the app's value through the personalized onboarding questions and tailored reccomendations on the home page.</p>
+  </div>
+<section class="shimmer-app-wireframes">
+  <h3 class="shimmer-h3">Wireframes: Onboarding</h3>
+  <div class="shimmer-onboarding-wireframes">
+  <img src="images/shimmer-wireframes-o.png" alt="onboarding-wireframes">
+  <img src="images/shimmer-wireframes-o2.png" alt="onboarding-wireframes">
 </div>
 </section>
-  <h2 class="shimmer-subheaders">Protoype Walkthrough</h2>
+<section class="shimmer-app-wireframes2">
+  <h3 class="shimmer-h3">Wireframes: In-App</h3>
+  <div class="shimmer-inapp-wireframes">
+    <img src="images/shimmer-wireframes-ia.png" alt="in-app wireframes">
+    <img src="images/shimmer-wireframes-ia2.png" alt="in-app wireframes">
+  </div>
+</section>
+</section>
+  <h3 class="shimmer-h3">Protoype Walkthrough</h3>
   <section class="shimmer-last-flex">
     <div class="shimmer-left-flex">
     <video width="50%" height="auto" controls="controls" class="app-vid">
@@ -127,51 +208,13 @@
 </div>
 
 </main>
-<a id="contact-link"></a>
-<section class="b-contact">
-  <section class="contact">
-    <section class="contact-left">
-      <h1>Let's Talk.</h1>
-      <p>Questions, comments, or just want to talk? Send me a message!</p>
-      <div class="gmail">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="auto" viewBox="0 0 38.009 25.656" fill="#CE2D89">
-          <path id="Icon_zocial-email" data-name="Icon zocial-email"
-            d="M.072,27.452V6.34q0-.037.11-.7L12.607,16.273.219,28.185a3.106,3.106,0,0,1-.147-.733ZM1.721,4.178a1.58,1.58,0,0,1,.623-.11H35.808a2.075,2.075,0,0,1,.66.11L24.006,14.844l-1.649,1.319-3.262,2.676-3.262-2.676-1.649-1.319Zm.037,25.437,12.5-11.985,4.838,3.922,4.838-3.922,12.5,11.985a1.76,1.76,0,0,1-.623.11H2.344a1.66,1.66,0,0,1-.586-.11ZM25.582,16.273,37.971,5.644a2.188,2.188,0,0,1,.11.7V27.452a2.809,2.809,0,0,1-.11.733Z"
-            transform="translate(-0.072 -4.068)" />
-        </svg>
-        <a href="mailto: zoe.orie@uconn.edu">zoe.orie@uconn.edu</a>
-      </div>
-      <div class="instagram">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="auto" viewBox="0 0 38.009 38" fill="#CE2D89">
-          <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram"
-            d="M19,11.5a9.743,9.743,0,1,0,9.743,9.743A9.727,9.727,0,0,0,19,11.5Zm0,16.077a6.334,6.334,0,1,1,6.334-6.334A6.346,6.346,0,0,1,19,27.572ZM31.417,11.1a2.272,2.272,0,1,1-2.272-2.272A2.267,2.267,0,0,1,31.417,11.1ZM37.87,13.4c-.144-3.044-.839-5.741-3.07-7.962s-4.918-2.917-7.962-3.07c-3.137-.178-12.541-.178-15.678,0-3.036.144-5.732.839-7.962,3.061S.281,10.35.128,13.394c-.178,3.137-.178,12.541,0,15.678.144,3.044.839,5.741,3.07,7.962s4.918,2.917,7.962,3.07c3.137.178,12.541.178,15.678,0,3.044-.144,5.741-.839,7.962-3.07s2.917-4.918,3.07-7.962c.178-3.137.178-12.532,0-15.67ZM33.817,32.439A6.413,6.413,0,0,1,30.2,36.051c-2.5.992-8.437.763-11.2.763s-8.708.22-11.2-.763A6.413,6.413,0,0,1,4.19,32.439c-.992-2.5-.763-8.437-.763-11.2s-.22-8.708.763-11.2A6.413,6.413,0,0,1,7.8,6.424c2.5-.992,8.437-.763,11.2-.763s8.708-.22,11.2.763a6.413,6.413,0,0,1,3.612,3.612c.992,2.5.763,8.437.763,11.2S34.809,29.946,33.817,32.439Z"
-            transform="translate(0.005 -2.238)" />
-        </svg>
-        <a href="https://www.instagram.com/zoesgraphicdesign/">@zoesgraphicdesign</a>
-      </div>
-    </section>
-    <section class="contact-right">
-      <form   
-      action="https://formspree.io/f/xeqyqpay"
-      method="POST">
-        <input type="text" class="single-input">
-        <label>Name</label>
-        <div class="form-space-e">
-          <input type="email" class="single-input">
-          <label>Email</label>
-        </div>
-        <div class="form-space">
-          <label>Message</label>
-          <textarea name="Message" placeholder="" class="message-input"></textarea>
-        </div>
-        <div class="b">
-          <button type="submit">Send</button>
-        </div>
-      </form>
-    </section>
-  </section>
-</section>
+
 <footer>
   <p>Design & Development by Zoe Orie</p>
 </footer>
+
+
+
+<script src="js/main.js"></script>
+
 </body>
