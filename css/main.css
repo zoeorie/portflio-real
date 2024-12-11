@@ -103,7 +103,7 @@
     position:relative;
     overflow-x: hidden;
   }
-  button {
+  .see-more button {
     color:#FFFFFF;
     background-color:#000;
     padding: 8px 15px;
@@ -111,7 +111,7 @@
     border-radius:5px;
     font-family:"figtree", sans-serif;
   }
-  button:hover{
+  .see-more button:hover{
     color:#000000;
     background-color:#FFFFFF;
   }

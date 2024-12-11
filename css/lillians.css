@@ -712,6 +712,28 @@ width:100%;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
+  list-style-type: none;
+}
+.keyi-grid{
+  display:grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap:20px;
+  padding-left:0px;
+  justify-items:center;
+  margin-bottom:60px;
+}
+.keyi-grid li {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 550px;
+  color: #000000;
+  line-height: 25px;
+  list-style-type: none;
+  background-color:#F8F6F6;
+  padding:15px;
+  border-radius:8px;
+  border: 1px solid #191919;
 }
 .research-findings {
   display:flex;
@@ -744,6 +766,31 @@ h3 {
 .pain-points {
   margin-left:20px;
   margin-right:20px;
+  display:grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap:20px;
+  margin-bottom:60px;
+}
+.pain-points p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  max-width: 550px;
+  color: #000000;
+}
+.pain-points div {
+  background-color:#F8F6F6;
+  padding:15px;
+  border-radius:8px;
+  border: 1px solid #191919;
+}
+.pain-points h4 {
+  font-family: "figtree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+  margin-bottom:10px;
 }
 .competitor-info {
   margin-top:40px;
@@ -758,6 +805,314 @@ h3 {
   width:100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
+.comp-analysis {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  margin-top:20px;
+  margin-bottom:60px;
+}
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.brand-guidelines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-grid-clouro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Default to 2 columns for mobile */
+  gap: 15px;
+  width: 100%;
+  max-width: 1200px; /* Ensure it fits within the wrapper */
+  overflow: hidden; /* Prevent overflow */
+  margin-bottom:60px;
+}
+
+.image-grid-clouro img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.clouro-bg-type {
+  margin-left:20px;
+  margin-bottom:20px;
+}
+.slider {
+  position: relative;
+  width: 100%; /* Adjust width as needed */
+}
+
+.slider-images {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-images img {
+  display: none; 
+  width: 100%; 
+}
+
+.slider-images img.active {
+  display: block; /* Show only the active image */
+}
+
+button.slider-prev, button.slider-next {
+  position: absolute;
+  top: 50%;
+  background-color: black; /* Transparent background */
+  border-radius: 100px;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 24px; /* Size of the arrow icon */
+  color: #ffffff; /* Color of the arrow */
+  border: none; /* Remove border */
+  z-index: 1; /* Make sure buttons are on top of the images */
+}
+
+button.slider-prev {
+  left: 10px; /* Position left button */
+}
+
+button.slider-next {
+  right: 10px; /* Position right button */
+}
+
+button.slider-prev i, button.slider-next i {
+  font-size: 25px; /* Adjust the size of the Font Awesome icons */
+}
+
+.navigation-dots {
+  text-align: center;
+}
+
+.nav-dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-dot.active {
+  background-color: #717171; /* Active dot color */
+}
+
+.slider-images img {
+  display: none; /* Hide all images initially */
+  width: 100%;   /* Adjust as needed */
+}
+
+.navigation-dots .nav-dot.active {
+  background-color: #333; /* Highlight active dot */
+}
+
+.gallery-display img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-display {
+  margin: 20px;
+  margin-bottom:80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wireframes-clouro h2 {
+  margin-left:20px;
+  margin-bottom:30px;
+}
+
+.info-arc-clouro img {
+  width:100%;
+  margin-top:30px;
+}
+.info-arc-clouro {
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom:60px;
+}
+.lowfi-test1 p, .lowfi-test1 li{
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  max-width: 550px;
+  color: #000000;
+}
+.lowfi-test1-type {
+  margin-left:20px;
+  margin-right:20px;
+}
+.lowfi-test1-header p, .lowfi-test1-header li  {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  max-width: 550px;
+  color: #000000;
+}
+.lowfi-test1-header {
+  margin-top:60px;
+  margin-right:20px;
+  margin-left:20px;
+}
+.lowfi-test1-vids {
+  display:flex;
+  justify-content:center;
+}
+.lowfi-test1-header {
+  margin-bottom:40px;
+}
+
+/* USER PERONAS: CLOURO */
+button.new-slider-prev, button.new-slider-next {
+  position: absolute;
+  top: 50%;
+  background-color: black; /* Transparent background */
+  border-radius: 100px;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 24px; /* Size of the arrow icon */
+  color: #ffffff; /* Color of the arrow */
+  border: none; /* Remove border */
+  z-index: 1; /* Make sure buttons are on top of the images */
+}
+
+button.new-slider-prev {
+  left: 10px; /* Position left button */
+}
+
+button.new-slider-next {
+  right: 10px; /* Position right button */
+}
+
+button.new-slider-prev i, button.new-slider-next i {
+  font-size: 25px; /* Adjust the size of the Font Awesome icons */
+}
+
+.new-navigation-dots {
+  margin-top: 10px; /* Ensure spacing below images */
+  text-align: center;
+}
+.new-slider {
+  position:relative;
+  width:100%;
+  margin-bottom:80px;
+}
+
+.new-nav-dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-nav-dot.active {
+  background-color: #333; /* Highlight active dot */
+}
+
+.new-slider-images img {
+  display: none; /* Hide all images initially */
+  width: 100%; /* Adjust as needed */
+}
+
+.new-slider-images img.active {
+  display: block; /* Show only the active image */
+}
+.new-slider-images {
+  display:flex;
+  justify-content:center;
+}
+
+.new-carousel-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.new-carousel-display img {
+  width: 75%;
+}
+
+.brand-concept-clouro img {
+width:100%;
+}
+.clouro-bc2 {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:30px;
+}
+.naming-c1 {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  margin-bottom:60px;
+}
+.research-h2-clouro {
+  margin-bottom:20px;
+  margin-left:20px;
+}
+.pp-h3 {
+  margin-bottom:20px;
+}
+.uj-map-clouro-type {
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:30px;
+}
+.clouro-marketing-type {
+  margin-top:60px;
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom:30px;
+}
+.clouro-marketing-type p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  max-width: 550px;
+  color: #000000;
+}
+.clouro-marketing-images img {
+  width:100%;
+}
+.clouro-marketing-images {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  margin-bottom:60px;
+}
+
+
+
+
+
+
+
+
  /* NO CURFEW BELOW */
 
 .description-noc p {
@@ -1196,6 +1551,20 @@ button.prev i, button.next i {
 .dot.active {
   background-color: #717171; /* Active dot color */
 }
+
+.carousel-images img {
+  display: none; /* Hide all images initially */
+  width: 100%;   /* Adjust as needed */
+}
+
+.carousel-images img:first-child {
+  display: block; /* Show the first image by default */
+}
+
+.dots-container .dot.active {
+  background-color: #333; /* Highlight active dot */
+}
+
  /* HOME OVERLAY IMAGES TEST */
 
 
@@ -1220,6 +1589,46 @@ button.prev i, button.next i {
   .dots-container {
     margin-top: 10px; /* Ensure spacing below images */
   }
+  button.slider-prev, button.slider-next {
+    width: 40px; /* Reduce button size for smaller screens */
+    height: 40px;
+    font-size: 18px; /* Adjust icon size */
+  }
+  
+  button.slider-prev {
+    left: -3px; /* Tweak position for smaller screens */
+  }
+  
+  button.slider-next {
+    right: -3px;
+  }
+  
+  .navigation-dots {
+    margin-top: 10px; /* Ensure spacing below images */
+  }
+  
+  .gallery-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:60px;
+  }
+  
+  .gallery-display img {
+    width: 100%;
+  }
+  button.new-slider-prev, button.new-slider-next {
+    width: 40px; /* Reduce button size for smaller screens */
+    height: 40px;
+    font-size: 18px; /* Adjust icon size */
+  }
+  .new-carousel-display img {
+    width:100%;
+  }
+  .new-slider {
+    margin-bottom:60px;
+  }
+  
 }
 
 
@@ -1453,16 +1862,140 @@ width:50%;
   margin-left:0px;
 }
 
+/* SENIOR PROJ BELOW */ 
+.research-clouro{
+  flex-direction:row;
+  gap:40px;
+  margin-bottom:20px;
+  margin-left:0px;
+  margin-right:0px;
+}
+.competitor-type {
+  margin-left:0px;
+  margin-right:0px;
+}
+.comp-analysis {
+  flex-direction: row;
+  justify-content:space-between;
+  gap:0px;
+  margin-bottom:80px;
+}
+.comp-analysis img {
+  width:32%;
+}
+.image-grid-clouro {
+  grid-template-columns: repeat(2, 1fr); /* 3 columns for desktop */
+  margin-bottom:80px;
+}
+.brand-guidelines {
+  padding:0px;
+}
+.clouro-bg-type {
+  margin-left:0px;
+}
+.competitor-type {
+  margin-bottom:30px;
+}
+.keyi-grid{
+  grid-template-columns: repeat(2, 1fr);
+  margin-left:0px;
+}
+.key-insights {
+  margin-left:0px;
+  margin-right:0px;
+}
+.key-insights h3 {
+  margin-bottom:20px;
+}
+.pain-points {
+  margin-left:0px;
+  margin-right:0px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom:80px;
+}
+.pain-points p {
+  max-width:650px;
+}
+.keyi-grid li {
+max-width:650px;
+}
+.senior-p {
+  max-width:650px;
+}
+.wireframes-clouro h2 {
+  margin-left:0px;
+}
+.info-arc-clouro {
+  margin-right:0px;
+  margin-left:0px;
+}
+
+.lowfi-test1 p, .lowfi-test1 li {
+  max-width:660px;
+}
+.lowfi-test1-type {
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+}
+.lowfi-test1 {
+  display:flex;
+  align-items:center;
+  gap:40px;
+}
+.lowfi-test1-type {
+  width:100%;
+}
+.clouro-vid1 {
+  width:75%;
+}
+.lowfi-test1-header p, .lowfi-test1-header li  {
+  max-width: 650px;
+}
+.lowfi-test1-header {
+  margin-right:0px;
+  margin-left:0px;
+}      
+.clouro-bc2 {
+  margin-left:0px;
+  margin-right:0px;
+}
+.naming-c1 {
+  margin-left:0px;
+  margin-right:0px;
+}
+.naming-clouro {
+  display:flex;
+  gap:20px;
+  margin-bottom:20px;
+}
+.naming-c1 {
+  margin-top:30px;
+}
+.research-h2-clouro {
+  margin-bottom:40px;
+  margin-left:0px;
+}
+.clouro-marketing-type {
+  margin-top:80px;
+  margin-right:0px;
+  margin-left:0px;
+}
+.clouro-marketing-type p {
+  max-width: 650px;
+}
+.clouro-marketing-images img {
+  width:50%;
+  object-fit:cover;
+}
+.clouro-marketing-images {
+  flex-direction:row;
+  margin-bottom:80px;
+}
 
 
 
 
-
-
-
-
-
-       
  /* ABOUT BELOW */                            
 .main-about img {
 margin-bottom:0px;
@@ -1551,8 +2084,9 @@ margin-right:0px;
   .style-tile-sui {
     margin-left:0px;
   }
-
-
+  .lowfi-test1-header {
+    margin-bottom:0px;
+  }
 
 
 
