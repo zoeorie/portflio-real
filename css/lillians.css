@@ -1,3 +1,6 @@
+
+
+
 .serif-headers {
   font-family: "ivypresto-headline", serif;
 font-weight: 100;
@@ -37,7 +40,7 @@ font-style: italic;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
  }
@@ -51,7 +54,7 @@ width:100%;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
  }
@@ -82,6 +85,14 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px
  }
  .print-tag {
   background-color: #FFF275;
+  padding:5px 10px;
+  color:black;
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .motion-tag {
+  background-color: #74C365;
   padding:5px 10px;
   color:black;
   font-family: "figtree", sans-serif;
@@ -188,7 +199,7 @@ font-style: italic;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #000000;
     line-height: 25px;
 }
@@ -204,7 +215,7 @@ font-style: italic;
   font-family: "figtree", sans-serif;
 font-weight: 400;
 font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
 }
@@ -424,7 +435,7 @@ margin-top:20px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
@@ -433,7 +444,7 @@ margin-top:20px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
 }
@@ -457,7 +468,7 @@ margin-left:20px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
   margin-left:0px;
@@ -499,7 +510,7 @@ color: #000000;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
 }
@@ -520,7 +531,7 @@ color: #000000;
   margin-left:20px;
   margin-right:20px;
   margin-bottom:30px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .social-media-flex{
   margin-bottom:30px;
@@ -541,7 +552,7 @@ color: #000000;
     font-family: "figtree", sans-serif;
     font-weight: 400;
     font-size:16px;
-    margin-top:10px;
+    margin-top:5px;
    }
    .core-print img {
     width:100%;
@@ -573,7 +584,11 @@ margin:20px;
   .more-print:hover {
 
   }
-  
+  .dp-print-imgs {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
 
 
   /* SHIMMER BELOW */
@@ -624,7 +639,7 @@ margin:20px;
   font-weight:400;
   font-style:normal;
   line-height:25px;
-  margin-top:10px;
+  margin-top:5px;
 }
 
 .header-with-icon {
@@ -729,7 +744,7 @@ margin:20px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   font-size:18px;
   margin-left:20px;
@@ -744,7 +759,7 @@ width:100%;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
@@ -817,7 +832,7 @@ width:100%;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
@@ -884,7 +899,7 @@ h3 {
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
 }
@@ -1057,7 +1072,7 @@ button.slider-prev i, button.slider-next i {
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
 }
@@ -1069,7 +1084,7 @@ button.slider-prev i, button.slider-next i {
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
 }
@@ -1204,7 +1219,7 @@ width:100%;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
 }
@@ -1229,7 +1244,7 @@ margin-top:60px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
 }
@@ -1247,7 +1262,7 @@ margin-top:60px;
   font-family: "figtree", sans-serif;
 font-weight: 400;
 font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
 }
@@ -1274,7 +1289,7 @@ color: #000000;
   font-family: "figtree", sans-serif;
 font-weight: 400;
 font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
 }
@@ -1287,7 +1302,7 @@ font-style: normal;
   font-family: "figtree", sans-serif;
 font-weight: 400;
 font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
 }
@@ -1319,14 +1334,14 @@ max-width:100%;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #000000;
 }
 .noc-logos-type p {
   font-family: "figtree", sans-serif;
 font-weight: 400;
 font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #000000;
   line-height: 25px;
   max-width:550px;
@@ -1423,7 +1438,7 @@ width:100%;
   font-family: "soleil", sans-serif;
   font-weight: 200;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 400px;
   color: #606060;
   line-height: 25px;
@@ -1479,7 +1494,7 @@ margin-top:16px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
@@ -1539,7 +1554,7 @@ margin-right:20px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top:10px;
+  margin-top:5px;
     max-width: 550px;
     color: #000000;
     line-height: 25px;
@@ -1620,7 +1635,7 @@ margin-right:20px;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 5px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
@@ -1647,7 +1662,7 @@ height:auto;
   font-family: "figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top:10px;
+  margin-top:5px;
     color: #000000;
     line-height: 25px;
 }
@@ -1737,13 +1752,34 @@ button.prev i, button.next i {
   width: 100%;   /* Adjust as needed */
 }
 
-.carousel-images img:first-child {
+.carousel-images img:active {
   display: block; /* Show the first image by default */
 }
 
 .dots-container .dot.active {
   background-color: #333; /* Highlight active dot */
 }
+ /* STATIC KINETIC */
+ .sk-process2 h2, .sk-process1 h2 {
+margin-left:20px;
+margin-bottom:20px;
+ }
+.sk-process1 img {
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+ }
+ .storyboard-imgs img {
+  width:100%;
+ }
+
+ .storyboard-imgs {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+ }
+
+
+
 
  /* HOME OVERLAY IMAGES TEST */
 
@@ -1934,7 +1970,23 @@ gap:20px;
       }
 
 
-
+ /* STATIC KINETIC */
+ .sk-process2 h2, .sk-process1 h2 {
+  margin-left:0px;
+   }
+   .storyboard-imgs {
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+   }
+   .storyboard-imgs img {
+    flex: 1; /* Each image will take up equal space */
+    max-width: 100%; /* Prevents images from exceeding their container's width */
+    object-fit: cover; /* Maintains aspect ratio without distortion */
+   }
+   .sk-process1 img {
+    width:75%;
+   }
 
 
        /* PRINT BELOW */
@@ -1964,7 +2016,19 @@ gap:20px;
        .lillians-print {
         margin-bottom:40px;
        }
- /* NO CURFEW BELOW */
+       .dp-print-imgs {
+        flex-direction:row;
+        width:50%;
+      }
+      .dp-print-imgs img {
+        width:50%;
+      }
+
+
+
+
+
+       /* NO CURFEW BELOW */
  .noc-1 {
   display:flex;
   gap:40px;
