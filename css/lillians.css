@@ -1771,6 +1771,12 @@ margin-bottom:20px;
  .storyboard-imgs img {
   width:100%;
  }
+ .sk-process1 {
+  margin-top:40px;
+ }
+ .sk-process2 {
+  margin-top:40px;
+ }
 
  .storyboard-imgs {
   display:flex;
@@ -1976,17 +1982,23 @@ gap:20px;
    }
    .storyboard-imgs {
     flex-direction:row;
-    align-items:center;
     justify-content:space-between;
    }
    .storyboard-imgs img {
-    flex: 1; /* Each image will take up equal space */
-    max-width: 100%; /* Prevents images from exceeding their container's width */
-    object-fit: cover; /* Maintains aspect ratio without distortion */
+width:32%;
    }
    .sk-process1 img {
-    width:75%;
+    width:50%;
    }
+   .sk-process1-moodboard {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   }
+   .sk-process1 {
+    margin-top:60px;
+   }
+   
 
 
        /* PRINT BELOW */
