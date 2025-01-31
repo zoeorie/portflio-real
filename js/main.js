@@ -74,3 +74,9 @@ function navigateNewSlide(index) {
 
 // Show the first slide initially
 navigateNewSlide(currentNewIndex);
+
+
+  document.getElementById('close-btn').addEventListener('click', function() {
+    document.getElementById('popup').style.visibility = 'hidden';
+    document.getElementById('popup').style.opacity = '0';
+  });

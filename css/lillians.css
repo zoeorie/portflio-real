@@ -300,6 +300,7 @@ font-style: normal;
 .dlc-type {
   margin-left:20px;
   margin-right:20px;
+  margin-top:20px;
 }
 .dlc-type button {
   background-color:black;
@@ -625,6 +626,9 @@ margin:20px;
 }
 .shimmer-email-container2 img {
   width:100%;
+}
+.shimmer-email-container2 {
+  margin-bottom:80px;
 }
 .app-goals {
   margin:20px;
@@ -964,6 +968,7 @@ h3 {
 .clouro-bg-type {
   margin-left:20px;
   margin-bottom:20px;
+  margin-top:40px;
 }
 .slider {
   position: relative;
@@ -1054,7 +1059,7 @@ button.slider-prev i, button.slider-next i {
   gap: 20px;
 }
 
-.wireframes-clouro h2 {
+.wireframes-clouro h3 {
   margin-left:20px;
   margin-bottom:30px;
 }
@@ -1203,6 +1208,7 @@ width:100%;
 }
 .pp-h3 {
   margin-bottom:20px;
+  margin-left:20px;
 }
 .uj-map-clouro-type {
   margin-left:20px;
@@ -1251,8 +1257,22 @@ margin-top:60px;
 .changes-hifi {
   margin-top:30px;
 }
-
-
+.app-rationale-clouro {
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:40px;
+}
+.app-rationale-clouro p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+  max-width: 550px;
+  color: #000000;
+}
+.info-arc-clouro {
+  margin-top:40px;
+}
 
 
 
@@ -1294,7 +1314,7 @@ font-style: normal;
   line-height: 25px;
 }
 .noc-project {
-  margin-bottom:60px;
+  margin-bottom:40px;
   margin-left:20px;
   margin-right:20px;
 }
@@ -1426,8 +1446,25 @@ width:100%;
   margin-right:20px;
   margin-left:20px;
   margin-top:20px;
+  margin-bottom:30px;
 }
+.noc-app p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+  color: #000000;
+  max-width:550px;
+  line-height: 25px;
+}
+.noc-app {
+  margin-bottom:20px;
+  margin-left:20px;
+  margin-right:20px;
+}
+.noc-walkthrough {
 
+}
 /* COR2E BELOW */
 
 .core-img {
@@ -1522,8 +1559,9 @@ margin-bottom:30px;
   color: #000000;
   line-height: 25px;
 }
-
-
+#noc-vid2 {
+  margin-bottom:80px;
+}
 
 
 
@@ -1762,14 +1800,16 @@ button.prev i, button.next i {
  /* STATIC KINETIC */
  .sk-process2 h2, .sk-process1 h2 {
 margin-left:20px;
-margin-bottom:20px;
  }
 .sk-process1 img {
   width:100%;
+ }
+ #shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
  }
  .storyboard-imgs img {
   width:100%;
+  margin-bottom:80px;
  }
  .sk-process1 {
   margin-top:40px;
@@ -1783,12 +1823,112 @@ margin-bottom:20px;
   flex-direction:column;
   gap:20px;
  }
+ .sk-process1-moodboard {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:40px;
+ }
+ .sk-process1-type p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+  max-width: 550px;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-bottom:0px;
+ }
+ .sk-process2 p{
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+  max-width: 550px;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-bottom:30px;
+ }
+.noc-main-img {
+  margin-bottom:60px;
+}
+.noc-mark p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+  max-width: 550px;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-bottom:30px;
+  margin-right:20px;
+}
+.noc-mark h3 {
+  margin-left:20px;
+}
+.noc-mark {
+  margin-bottom: 40px;
+}
+.mark-images img {
+width:100%;
+}
+.mark-images {
+}
 
+ /* POPUP*/
+/* Popup overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dim the background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
 
+/* Popup box */
+.popup-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+#popup p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
 
-
- /* HOME OVERLAY IMAGES TEST */
-
+/* Close button hover effect */
+.close-btn:hover {
+}
+/* Mobile-specific styling */
+@media (max-width: 600px) {
+  .popup-box {
+    margin: 0 15px; /* Add margin on both sides for small screens */
+  }
+}
 
 
 
@@ -1974,7 +2114,9 @@ gap:20px;
       .sk-left {
         width:50%;
       }
-
+.dlc-type {
+  margin-top:0px;
+}
 
  /* STATIC KINETIC */
  .sk-process2 h2, .sk-process1 h2 {
@@ -1991,14 +2133,17 @@ width:32%;
     width:50%;
    }
    .sk-process1-moodboard {
-    display:flex;
-    align-items:center;
-    justify-content:center;
+flex-direction:row;
    }
    .sk-process1 {
     margin-top:60px;
    }
-   
+   .sk-process1-type p {
+    margin-left: 0px;
+   }
+   .sk-process2 p {
+    margin-left:0px;
+   }
 
 
        /* PRINT BELOW */
@@ -2121,17 +2266,23 @@ width:32%;
   width:100%;
 }
 .noc-social-left{
-  width:50%;
-  flex-direction:row;
-  align-items:center;
 }
 .noc-social-right {
   margin-right:0px;
   margin-left:0px;
 }
-
-
-
+.noc-app {
+  margin-bottom:40px;
+  margin-left:0px;
+  margin-right:0px;
+}
+.noc-mark p {
+  margin-left:0px;
+  margin-right:0px;
+}
+.noc-mark h3{
+  margin-left:0px;
+}
 
 
 
@@ -2277,14 +2428,22 @@ max-width:650px;
 .senior-p {
   max-width:650px;
 }
-.wireframes-clouro h2 {
+.wireframes-clouro h3 {
   margin-left:0px;
 }
 .info-arc-clouro {
   margin-right:0px;
   margin-left:0px;
 }
-
+.empathy-type {
+  margin-left:0px;
+}
+.personas-type-clouro {
+  margin-left:0px;
+}
+.uj-map-clouro-type {
+  margin-left:0px;
+}
 .lowfi-test1 p, .lowfi-test1 li {
   max-width:660px;
 }
@@ -2358,7 +2517,21 @@ max-width:650px;
     margin-left:00px;
     margin-right:0px;
   }
-
+  .pp-h3  {
+    margin-left:0px;
+  }
+.app-p {
+  display:flex;
+  gap:40px;
+}
+.app-rationale-clouro {
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:60px;
+}
+.info-arc-clouro {
+  margin-top:60px;
+}
 
 
  /* ABOUT BELOW */                            
@@ -2523,7 +2696,6 @@ width:50%;
   gap:20px;
 }
 .landing-page img {
-  width:50%;
 }
 .emails {
   display:flex;
