@@ -1299,7 +1299,6 @@ color: #000000;
   display:flex;
   flex-direction:column;
   gap:30px;
-  margin-bottom:30px;
 }
 .noc1-right {
   margin-left:20px;
@@ -2283,7 +2282,9 @@ flex-direction:row;
 .noc-mark h3{
   margin-left:0px;
 }
-
+#noc-bg {
+margin-top:60px;
+}
 
 
  /* SHIMMER BELOW */
