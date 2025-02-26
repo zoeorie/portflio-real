@@ -1236,6 +1236,9 @@ width:100%;
   display:flex;
   flex-direction:column;
   gap:20px;
+  margin-bottom:20px;
+}
+.clouro-marketing {
   margin-bottom:60px;
 }
 .hi-fi-flats-clouro {
@@ -2506,6 +2509,8 @@ max-width:650px;
 }
 .clouro-marketing-images {
   flex-direction:row;
+}
+.clouro-marketing {
   margin-bottom:80px;
 }
 .info-arc-iframe {
@@ -2564,12 +2569,15 @@ margin-bottom:0px;
   margin-bottom:80px;
 }
   .brand-concept-sui {
-    display:flex;
-    gap:40px;
-    align-items:center;
+    margin-top:80px;
+    margin-bottom:80px;
   }
   .brand-concept-sui img {
-    width:50%;
+    width:100%;
+  }
+  .brand-sui-img {
+    display:flex;
+    align-items: center;
   }
   h3 {
     margin-left:0px;
@@ -2610,7 +2618,7 @@ margin-right:0px;
 }
 .type-brand-concept-sui {
 margin-left:0px;
-margin-top:0px;
+margin-top:40px;
 margin-right:0px;
 }
 .type-sui-project-goals {
