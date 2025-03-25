@@ -87,6 +87,26 @@
   textarea {
     resize: vertical;
   }
+
+  nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:40px;
+  }
+  nav ul {
+    list-style-type: none;
+    font-family: "figtree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display:flex;
+  align-items:center;
+  gap: 30px;
+  }
+  nav a {
+    text-decoration:none;
+  }
+
   
   /* ==========================================================================
      Author's custom styles
@@ -408,6 +428,8 @@ justify-content:center;
     margin-bottom:10px;
   }
 
+
+
   /*  TAGS */
   .ui-tag {
     background-color: #6896F8;
@@ -498,6 +520,14 @@ font-style: italic;
     .main-nav ul { 
       gap:50px;
     }
+    nav {
+      max-width: 1200px;
+      margin:40px auto;
+      padding:20px;
+  }
+  nav ul {
+  gap: 50px;
+  }
 
 
   /* Keyframes */
