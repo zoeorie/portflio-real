@@ -92,7 +92,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin:40px;
+    margin:20px;
   }
   nav ul {
     list-style-type: none;
@@ -102,6 +102,9 @@
   display:flex;
   align-items:center;
   gap: 30px;
+  }
+  ul a {
+    font-size:14px;
   }
   nav a {
     text-decoration:none;
@@ -527,6 +530,9 @@ font-style: italic;
   }
   nav ul {
   gap: 50px;
+  }
+  nav ul a {
+    font-size:16px;
   }
 
 
