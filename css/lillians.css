@@ -1054,7 +1054,9 @@ button.slider-prev i, button.slider-next i {
   width: 100%;
   height: auto;
 }
-
+.clouro-walkthrough {
+  margin-top:20px;
+}
 .gallery-display {
   margin: 20px;
   margin-bottom:80px;
@@ -1067,7 +1069,9 @@ button.slider-prev i, button.slider-next i {
   margin-left:20px;
   margin-bottom:30px;
 }
-
+.wireframes-clouro{
+  margin-bottom:80px;
+}
 .info-arc-clouro img {
   width:100%;
   margin-top:30px;
@@ -1195,6 +1199,7 @@ button.new-slider-prev i, button.new-slider-next i {
 .brand-concept-clouro img {
 width:100%;
 }
+
 .clouro-bc2 {
   margin-left:20px;
   margin-right:20px;
@@ -1241,6 +1246,22 @@ width:100%;
   flex-direction:column;
   gap:20px;
   margin-bottom:20px;
+  align-items:center;
+}
+.research-clouro-h2 {
+  margin-bottom:30px;
+  margin-left:20px;
+}
+.clouro-marketing-images2 img {
+  width:100%;
+}
+.clouro-marketing-images2 {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  margin-bottom:20px;
+  margin-top:20px;
+  align-items:center;
 }
 .clouro-marketing {
   margin-bottom:60px;
@@ -2512,11 +2533,20 @@ max-width:650px;
   max-width: 650px;
 }
 .clouro-marketing-images img {
-  width:50%;
   object-fit:cover;
 }
 .clouro-marketing-images {
   flex-direction:row;
+}
+.clouro-marketing-images2 img {
+  object-fit:cover;
+}
+.clouro-marketing-images2 {
+  flex-direction:row;
+}
+.research-clouro-h2 {
+  margin-bottom:30px;
+  margin-left:0px;
 }
 .clouro-marketing {
   margin-bottom:80px;
@@ -2635,7 +2665,9 @@ margin-right:0px;
   margin-right:0px;
   margin-bottom:0px;
   }
-
+.brand-concept-clouro {
+  flex-direction:row;
+}
   .style-tile-sui {
     margin-left:0px;
     margin-bottom:60px;
