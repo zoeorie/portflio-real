@@ -105,6 +105,11 @@
   align-items:center;
   gap: 30px;
   }
+  nav li:hover {
+    text-decoration:underline;
+text-decoration-style: dotted;
+
+  }
   ul a {
     font-size:14px;
   }
