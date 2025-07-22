@@ -2320,6 +2320,21 @@ flex-direction:row;
 margin-top:60px;
 }
 
+.about-page,
+.about-page html {
+  height: 100%;
+  margin: 0;
+}
+
+.about-page .page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-page main {
+  flex: 1;
+}
 
  /* SHIMMER BELOW */
       .project-purpose-shimmer {
