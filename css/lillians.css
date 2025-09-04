@@ -1,6 +1,32 @@
 
 
-
+p {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-top: 5px;
+    line-height: 25px;
+    max-width:700px!important;
+}
+h2 {
+  font-family: "figtree", sans-serif;
+font-weight: 400;
+font-style: normal;
+  margin:0px;
+  font-size:26px;
+  color:#000000;
+}
+h3 {
+  font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin:0px;
+    font-size:20px;
+    color:#000000;
+}
+h1 {
+  margin-bottom:20px!important;
+}
 .serif-headers {
   font-family: "ivypresto-headline", serif;
 font-weight: 100;
@@ -26,6 +52,31 @@ font-style: italic;
 .margin-h1{
   margin-bottom:18px;
 }
+.main-info {
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  margin-top:40px;
+  margin-bottom:40px;
+  margin-left:20px;
+  margin-right:20px;
+}
+.small-info ul {
+  text-decoration: none;
+  list-style-type:none;
+  padding:0px;
+    font-family: "figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
  /* SUI BELOW */
  .images-sui img {
   width:100%;
@@ -64,7 +115,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px
  }
  .style-tile-sui {
   margin-top:50px;
-  margin-bottom:40px;
+  margin-bottom:60px;
  }
  .ui-tag {
   background-color: #6896F8;
@@ -271,14 +322,6 @@ nav {
   .type-section img {
     width:85%;
   }
-  h2 {
-    font-family: "figtree", sans-serif;
-font-weight: 600;
-font-style: normal;
-    margin:0px;
-    font-size:30px;
-    color:#000000;
-  }
   .type-exp {
     padding-top:30px;
   }
@@ -338,9 +381,6 @@ font-style: normal;
   gap:20px;
   flex-direction:column;
   margin-bottom:40px;
-}
-h3 {
-  color: #000000;
 }
 .dlc-type button:hover {
   background-color:#ffffff;
@@ -620,7 +660,7 @@ margin:20px;
 }
 .landing-page-video-sui {
   margin-top:80px;
-  margin-bottom:40px;
+  margin-bottom:60px;
 }
 .shimmer-email-container1 img {
   width:100%;
@@ -811,6 +851,7 @@ width:100%;
 .competitor-type {
   margin-left:20px;
   margin-right:20px;
+  margin-top:20px;
 }
 .competitor1 {
   margin-left:20px;
@@ -871,13 +912,6 @@ width:100%;
   display:flex;
   flex-direction:column;
   gap:20px;
-}
-h3 {
-  font-family: "figtree", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  margin: 0px;
-  font-size: 25px;
 }
 
 .brand-stuff {
@@ -953,6 +987,17 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+.clouro-test2 {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.clouro-test2 img {
+  width:100%;
+}
+.clouro-test1 {
+  margin-bottom:40px;
+}
 
 .image-grid-clouro {
   display: grid;
@@ -961,7 +1006,7 @@ h3 {
   width: 100%;
   max-width: 1200px; /* Ensure it fits within the wrapper */
   overflow: hidden; /* Prevent overflow */
-  margin-bottom:60px;
+  margin-bottom:40px;
 }
 
 .image-grid-clouro img {
@@ -1065,10 +1110,6 @@ button.slider-prev i, button.slider-next i {
   gap: 20px;
 }
 
-.wireframes-clouro h3 {
-  margin-left:20px;
-  margin-bottom:30px;
-}
 .wireframes-clouro{
   margin-bottom:80px;
 }
@@ -1228,7 +1269,7 @@ width:100%;
   margin-top:60px;
   margin-right:20px;
   margin-left:20px;
-  margin-bottom:30px;
+  margin-bottom:60px;
 }
 .clouro-marketing-type p {
   font-family: "figtree", sans-serif;
@@ -1238,19 +1279,25 @@ width:100%;
   max-width: 550px;
   color: #000000;
 }
-.clouro-marketing-images img {
-  width:100%;
-}
 .clouro-marketing-images {
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-  margin-bottom:20px;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Images fill container on mobile */
+.clouro-marketing-images img {
+  width: 100%;
+  height: 300px;        /* adjust as needed */
+  object-fit: cover;
 }
 .research-clouro-h2 {
   margin-bottom:30px;
   margin-left:20px;
+}
+.research-clouro {
+  gap:20px;
 }
 .clouro-marketing-images2 img {
   width:100%;
@@ -1289,6 +1336,7 @@ margin-top:60px;
   margin-left:20px;
   margin-right:20px;
   margin-bottom:40px;
+  margin-top:40px;
 }
 .app-rationale-clouro p {
   font-family: "figtree", sans-serif;
@@ -1301,7 +1349,6 @@ margin-top:60px;
 .info-arc-clouro {
   margin-top:40px;
 }
-
  /* UCONN A-Z BELOW */
 .uconn-z1 img{
 width: 100%;
@@ -1497,8 +1544,7 @@ width:100%;
 .noc-social-right {
   margin-right:20px;
   margin-left:20px;
-  margin-top:20px;
-  margin-bottom:30px;
+  margin-top:40px;
 }
 .noc-app p {
   font-family: "figtree", sans-serif;
@@ -1513,6 +1559,7 @@ width:100%;
   margin-bottom:20px;
   margin-left:20px;
   margin-right:20px;
+  margin-top:20px;
 }
 .noc-walkthrough {
 
@@ -1612,7 +1659,7 @@ margin-bottom:30px;
   line-height: 25px;
 }
 #noc-vid2 {
-  margin-bottom:80px;
+  margin-bottom:40px;
 }
 
 
@@ -1903,9 +1950,6 @@ margin-left:20px;
   margin-left: 20px;
   margin-bottom:30px;
  }
-.noc-main-img {
-  margin-bottom:60px;
-}
 .noc-mark p {
   font-family: "figtree", sans-serif;
   font-weight: 400;
@@ -2047,6 +2091,7 @@ width:100%;
 
 
 @media (min-width:800px){ 
+   /* GENERAL STYLING */
   .wrapper{
     max-width: 1350px;
     margin:0 auto;
@@ -2090,6 +2135,28 @@ width:100%;
       .two-images {
         flex-direction: row;
       }
+      .main-info {
+        flex-direction:row;
+        gap:40px;
+  justify-content:space-between;
+  margin-top:80px;
+  margin-bottom:80px;
+  margin-left:0px;
+}
+.small-info ul {
+  display:flex;
+  text-decoration: none;
+  list-style-type:none;
+  gap:18px;
+  padding:0px;
+}
+h1 {
+  margin-bottom:30px!important;
+}
+
+
+
+
 
       /* FUN STUFF BELOW */
       .dlc-fun {
@@ -2330,7 +2397,7 @@ flex-direction:row;
   margin-bottom:80px;
 }
 .noc-cards {
-  margin-bottom:60px;
+  margin-bottom:80px;
 }
 .noc-cards {
   display:flex;
@@ -2345,7 +2412,7 @@ flex-direction:row;
   margin-left:0px;
 }
 .noc-social {
-  margin-bottom:60px;
+  margin-bottom:80px;
 }
 .noc-social img {
   width:100%;
@@ -2360,6 +2427,7 @@ flex-direction:row;
   margin-bottom:40px;
   margin-left:0px;
   margin-right:0px;
+  margin-top:80px;
 }
 .noc-mark p {
   margin-left:0px;
@@ -2368,10 +2436,9 @@ flex-direction:row;
 .noc-mark h3{
   margin-left:0px;
 }
-#noc-bg {
-margin-top:60px;
+#noc-vid2 {
+  margin-bottom:80px;
 }
-
 .about-page,
 .about-page html {
   height: 100%;
@@ -2474,7 +2541,7 @@ margin-top:60px;
 .research-clouro{
   flex-direction:row;
   gap:40px;
-  margin-bottom:20px;
+  margin-bottom:40px;
   margin-left:0px;
   margin-right:0px;
 }
@@ -2502,7 +2569,7 @@ margin-top:60px;
   margin-left:0px;
 }
 .competitor-type {
-  margin-bottom:30px;
+  margin-bottom:40px;
 }
 .keyi-grid{
   grid-template-columns: repeat(2, 1fr);
@@ -2539,15 +2606,16 @@ max-width:650px;
 }
 .empathy-type {
   margin-left:0px;
+  margin-bottom:40px;
 }
 .personas-type-clouro {
   margin-left:0px;
+  margin-top:80px;
 }
 .uj-map-clouro-type {
   margin-left:0px;
 }
 .lowfi-test1 p, .lowfi-test1 li {
-  max-width:660px;
 }
 .lowfi-test1-type {
   margin-left:0px;
@@ -2558,6 +2626,7 @@ max-width:650px;
   display:flex;
   align-items:center;
   gap:40px;
+  margin-bottom:60px;
 }
 .lowfi-test1-type {
   width:100%;
@@ -2597,16 +2666,23 @@ max-width:650px;
   margin-top:80px;
   margin-right:0px;
   margin-left:0px;
+  margin-bottom:80px;
 }
 .clouro-marketing-type p {
   max-width: 650px;
 }
-.clouro-marketing-images img {
-  object-fit:cover;
-}
-.clouro-marketing-images {
-  flex-direction:row;
-}
+ .clouro-marketing-images {
+    flex-direction: row;
+    gap: 20px;          /* smaller gap for row layout */
+    height: 400px;  
+    overflow:hidden; 
+    align-items:center;    /* fixed row height */
+  }
+
+  .clouro-marketing-images img {
+    flex: 1;            /* equal width for each image */
+    height: 100%;       /* match container height */
+  }
 .clouro-marketing-images2 img {
   object-fit:cover;
 }
@@ -2624,7 +2700,7 @@ max-width:650px;
   margin-bottom:80px;
 }
 .hi-fi-flats-clouro {
-  margin-top:80px;
+  margin-bottom:80px;
   }
   .hi-fi-flats-clouro h2 {
     margin-left:00px;
@@ -2640,11 +2716,25 @@ max-width:650px;
 .app-rationale-clouro {
   margin-left:0px;
   margin-right:0px;
-  margin-bottom:60px;
+  margin-bottom:80px;
+
 }
 .info-arc-clouro {
   margin-top:60px;
 }
+.clouro-test2 {
+  flex-direction:row;
+  margin-bottom:80px;
+}
+.clouro-test2 img {
+  width:50%;
+}
+.clouro-test1 {
+  margin-bottom:60px;
+  display:flex;
+}
+
+
 
 
  /* ABOUT BELOW */                            
@@ -2666,6 +2756,12 @@ margin-bottom:0px;
   display:flex;
   flex-direction: row;
   gap:70px;
+}
+.type-user-personas-sui {
+  margin-bottom:40px;
+}
+.user-personas-sui{
+  margin-bottom:80px;
 }
       .images-sui {
         flex-direction: row;
@@ -2696,8 +2792,7 @@ margin-bottom:0px;
     display:flex;
     align-items:center;
     gap:40px;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-bottom:80px;
    }
    .style-tile-container {
 display:flex;
@@ -2739,7 +2834,8 @@ margin-right:0px;
 }
   .style-tile-sui {
     margin-left:0px;
-    margin-bottom:60px;
+    margin-bottom:80px;
+    margin-top:0px;
   }
   .lowfi-test1-header {
     margin-bottom:0px;
@@ -2757,7 +2853,7 @@ margin-right:0px;
   margin-bottom:40px;
  }
 .landing-page-video-sui {
-  margin-bottom:60px;
+  margin-bottom:80px;
 }
 
 
