@@ -634,7 +634,12 @@ margin:20px;
     flex-direction:column;
     gap:20px;
   }
-
+.lrr-print img {
+  width:100%;
+}
+.lrr-print {
+  margin-bottom:60px;
+}
 
   /* SHIMMER BELOW */
 
@@ -2305,6 +2310,20 @@ flex-direction:row;
       .dp-print-imgs img {
         width:50%;
       }
+      .lrr-print {
+        display:flex;
+        gap:40px;
+        align-items:center;
+        margin-bottom:80px;
+      }
+.lrr-print img {
+  width:50%;
+}
+
+
+
+
+
 
           /* UCONN A-Z BELOW */
       .uconna-z2 p{
