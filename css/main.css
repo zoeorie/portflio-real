@@ -116,7 +116,21 @@ text-decoration-style: dotted;
   nav a {
     text-decoration:none;
   }
+  .intro-and-animation {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .intro-text{
+    order:1;
+  }
 
+  .little-me {
+  width: 125px;    /* change to your desired width */
+  height: auto;    /* keeps aspect ratio */
+  display: block;  /* optional: helps center */ /* centers horizontally */
+}
   
   /* ==========================================================================
      Author's custom styles
@@ -168,13 +182,11 @@ text-decoration-style: dotted;
     margin-top:20px;
   }
   .top {
-    display:flex;
-    align-items:center;
     margin-bottom: 30px;
   }
   .left-top {
     margin-left:20px;
-    margin-top:50px;
+    margin-top:20px;
     margin-right:20px;
   }
   .left-top h1 {
@@ -512,7 +524,16 @@ font-style: italic;
   animation-iteration-count: 5;
   z-index: 999;
     }
-
+  .little-me {
+  width: 225px;   
+  order:2;
+}
+  .intro-and-animation {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center
+  }
     .work:hover {
       background-color:white;
       color: #CE2D89;
