@@ -1902,9 +1902,6 @@ button.prev i, button.next i {
   background-color: #333; /* Highlight active dot */
 }
  /* STATIC KINETIC */
- .sk-process2 h2, .sk-process1 h2 {
-margin-left:20px;
- }
 .sk-process1 img {
   width:100%;
  }
@@ -1941,8 +1938,13 @@ margin-left:20px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
-  margin-left: 20px;
   margin-bottom:20px;
+ }
+ .sk-process1-type {
+ margin-top:40px;
+ margin-left:20px;
+ margin-right:20px;
+ margin-bottom:60px;
  }
  .sk-process2 p{
   font-family: "figtree", sans-serif;
@@ -1952,8 +1954,15 @@ margin-left:20px;
   max-width: 550px;
   color: #000000;
   line-height: 25px;
+  margin-bottom:40px;
+ }
+ .sk-process2 {
   margin-left: 20px;
-  margin-bottom:30px;
+  margin-right:20px;
+  margin-bottom:60px;
+ }
+ .sk-process2 h3 {
+  margin-top:40px;
  }
 .noc-mark p {
   font-family: "figtree", sans-serif;
@@ -2253,16 +2262,23 @@ gap:20px;
  .sk-process2 h2, .sk-process1 h2 {
   margin-left:0px;
    }
+    .sk-process2 {
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom:80px;
+ }
+ .sk-process2 p {
+  margin-bottom:0px;
+ }
+ .sk-process2 h3{
+  margin-top:60px;
+ }
    .storyboard-imgs {
     flex-direction:row;
     justify-content:space-between;
    }
    .storyboard-imgs img {
 width:32%;
-margin-bottom:80px;
-   }
-   .sk-process1 img {
-    width:50%;
    }
    .sk-process1-moodboard {
 flex-direction:row;
@@ -2270,9 +2286,11 @@ flex-direction:row;
    .sk-process1 {
     margin-top:60px;
    }
-   .sk-process1-type p {
-    margin-left: 0px;
-    margin-bottom:0px;
+   .sk-process1-type {
+margin-left:0px;
+margin-right:0px;
+margin-bottom:80px; 
+margin-top:60px;
    }
    .sk-process2 p {
     margin-left:0px;
