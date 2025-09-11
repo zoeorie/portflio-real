@@ -1401,14 +1401,20 @@ font-style: normal;
 color: #000000;
 }
 .noc-1 {
-  display:flex;
-  flex-direction:column;
-  gap:30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
 }
-.noc1-right {
-  margin-left:20px;
-  margin-right:20px;
+
+/* Mobile images */
+.noc-1 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
+
 .noc-1 p {
   font-family: "figtree", sans-serif;
 font-weight: 400;
@@ -1429,9 +1435,6 @@ font-style: normal;
   margin-top: 5px;
   color: #000000;
   line-height: 25px;
-}
-.noc1-left img {
-  width:100%;
 }
 .noc-moodboard-left {
   margin-left:20px;
@@ -2378,19 +2381,24 @@ margin-top:60px;
 
 
        /* NO CURFEW BELOW */
- .noc-1 {
-  display:flex;
-  gap:40px;
-  flex-direction: row;
-  align-items:center;
- }
+  .noc-1 {
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;      /* prevent images from spilling out */
+    margin: 0 auto;        /* center container */
+  }
+
+  .noc-1 img {
+    flex: 1;
+    height: auto;           /* let height scale proportionally */
+    max-height: 440px;      /* optional: cap image height */
+    object-fit: cover;
+  }
  .noc-logos {
   display:flex;
   gap:40px;
   margin-top:60px;
- }
- .noc1-left {
-  width:50%;
  }
  .noc-project {
   margin-left:0px;
