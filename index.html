@@ -76,10 +76,48 @@
           <p>I'm a graphic designer with a love for thoughtful design, dancing, and cheese. From branding and UI/UX to advertising and more, I'm excited to create cool work with a backstory. 
           </p>
           </div>
-          <video class="little-me" autoplay loop muted playsinline>
+          <video 
+  class="little-me" 
+  autoplay 
+  muted 
+  playsinline 
+  preload="auto">
   <source src="images/animation-test2.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
+
+<script>
+  const vid = document.querySelector('.little-me');
+
+  // Check if user prefers reduced motion
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  if (prefersReducedMotion) {
+    // Respect accessibility settings: stop autoplay/loop
+    vid.removeAttribute('autoplay');
+    vid.removeAttribute('loop');
+    vid.pause();
+  } else {
+    if (window.innerWidth <= 800) {
+      // Mobile: play once
+      vid.removeAttribute('loop');
+    } else {
+      // Desktop: loop forever
+      vid.setAttribute('loop', '');
+    }
+  }
+</script>
+
+<style>
+  /* Hide any native play buttons/controls */
+  .little-me::-webkit-media-controls {
+    display: none !important;
+  }
+  .little-me {
+    pointer-events: none; /* prevents accidental taps bringing up controls */
+  }
+</style>
+
 </section>
 
         </section>
