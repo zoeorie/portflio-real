@@ -439,6 +439,11 @@ justify-content:center;
     flex-direction:column;
     gap:30px;
   }
+    .column4{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+  }
   .home-image-headers {
     font-family: "figtree", sans-serif;
     font-weight: 400;
@@ -683,6 +688,10 @@ flex-direction: row;
       display:flex;
       gap:20px;
     }
+        .column4{
+      display:flex;
+      gap:20px;
+    }
 
   .right-top {
     display:none;
@@ -789,6 +798,12 @@ flex-direction: row;
       width:100%;
     }
     .column3{
+      display: flex;
+      flex-direction: row;
+      gap:20px;
+      width:100%;
+    }
+        .column4{
       display: flex;
       flex-direction: row;
       gap:20px;

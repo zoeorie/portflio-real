@@ -1,5 +1,4 @@
 
-
 p {
   font-family: "figtree", sans-serif;
   font-weight: 400;
@@ -70,11 +69,42 @@ font-style: italic;
   font-style: normal;
   margin-top: 5px;
 }
-
-
-
-
-
+ /* DC BELOW */
+.dc-header-img {
+  width:100%;
+}
+.dc-2 {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.dc-2 video {
+  width:100%;
+}
+.dc-2 {
+  margin-bottom:20px;
+}
+.dc-3 {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.dc-2 img {
+  width:100%;
+}
+.dc-3 {
+  margin-bottom:60px;
+}
+.dc-social-gallery {
+  width:100%;
+  margin-bottom:20px;
+}
+.dc-rationale {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:60px;
+  margin-bottom:60px;
+}
 
 
  /* SUI BELOW */
@@ -640,6 +670,40 @@ margin:20px;
 .lrr-print {
   margin-bottom:60px;
 }
+.lrr-2 {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+  /* LRR BELOW */
+.lrr-photos {
+  width:100%;
+}
+.lrr-photos1 {
+  width:100%;
+}
+.lrr-photos2 {
+  width:100%;
+}
+.lrr-2 video {
+  width:100%;
+}
+.lrr-2 {
+  margin-bottom:20px;
+}
+.lrr-photos2 {
+  margin-bottom:80px;
+
+}
+
+
+
+
+
+
+
+
+
 
   /* SHIMMER BELOW */
 
@@ -2174,7 +2238,39 @@ h2 {
   font-size:26px;
 }
 
-
+ /* DC BELOW */
+  .dc-2 {
+    flex-direction:row;
+  }
+ .dc-2 video {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 450px;           /* set same height for both */
+    object-fit: cover; 
+    overflow:hidden;
+  }
+  .dc-2 img {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 450px;           /* set same height for both */
+    object-fit: cover; 
+  }
+    .dc-3 {
+    flex-direction:row;
+    margin-bottom:80px;
+  }
+ .dc-3 img {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 500px;           /* set same height for both */
+    object-fit: cover; 
+  }
+  .dc-rationale {
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:80px;
+  margin-bottom:80px;
+}
 
 
 
@@ -2298,6 +2394,36 @@ margin-top:60px;
    .sk-process2 p {
     margin-left:0px;
    }
+
+
+
+/* LRR BELOW */ 
+
+  .lrr-2 {
+    flex-direction:row;
+width:100%;
+  }
+  .lrr-2 video {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 500px;           /* set same height for both */
+    object-fit: cover; 
+  }
+  .lrr-2 img {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 500px;           /* set same height for both */
+    object-fit: cover; 
+  }
+  .lrr-photos1{
+      height:800px;
+  object-fit:cover;
+  }
+.lrr-photos2 {
+        height:900px;
+  object-fit:cover;
+}
+
 
 
        /* PRINT BELOW */
