@@ -1066,6 +1066,8 @@ width:100%;
 }
 .clouro-test1 {
   margin-bottom:40px;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .image-grid-clouro {
@@ -2906,6 +2908,8 @@ max-width:650px;
 .clouro-test1 {
   margin-bottom:60px;
   display:flex;
+  margin-left:0px;
+  margin-right:0px;
 }
 
 
