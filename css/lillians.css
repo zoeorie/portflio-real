@@ -84,6 +84,10 @@ font-style: italic;
 .dc-2 {
   margin-bottom:20px;
 }
+.process-dc img {
+width:100%;
+margin-bottom:60px;
+}
 .dc-3 {
   display:flex;
   flex-direction:column;
@@ -105,7 +109,11 @@ font-style: italic;
   margin-top:60px;
   margin-bottom:60px;
 }
-
+.process-dc-type{
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:40px;
+}
 
  /* SUI BELOW */
  .images-sui img {
@@ -2260,6 +2268,7 @@ h2 {
     .dc-3 {
     flex-direction:row;
     margin-bottom:80px;
+    overflow:hidden;
   }
  .dc-3 img {
     width:50%;
@@ -2271,6 +2280,13 @@ h2 {
   margin-left:0px;
   margin-right:0px;
   margin-top:80px;
+  margin-bottom:80px;
+}
+.process-dc-type{
+  margin-left:0px;
+  margin-right:0px;
+}
+.process-dc img {
   margin-bottom:80px;
 }
 
