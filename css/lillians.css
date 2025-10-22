@@ -925,6 +925,11 @@ width:100%;
   margin-left:20px;
   margin-right:20px;
 }
+.marketing-postcard {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
 .competitor-type {
   margin-left:20px;
   margin-right:20px;
@@ -1428,6 +1433,12 @@ margin-top:60px;
 .info-arc-clouro {
   margin-top:40px;
 }
+.clouro-static-screens {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
  /* UCONN A-Z BELOW */
 .uconn-z1 img{
 width: 100%;
@@ -2755,6 +2766,13 @@ width:100%;
   grid-template-columns: repeat(2, 1fr); /* 3 columns for desktop */
   margin-bottom:80px;
 }
+.clouro-static-screens {
+  flex-direction:row;
+}
+.clouro-static-screens img {
+  width:50%;
+  overflow:hidden;
+}
 .brand-guidelines {
   padding:0px;
 }
@@ -2764,6 +2782,15 @@ width:100%;
 .competitor-type {
   margin-bottom:40px;
 }
+.marketing-postcard {
+  display:flex;
+  flex-direction:row;
+}
+.marketing-postcard img {
+  width:50%;
+  overflow:hidden;
+}
+
 .keyi-grid{
   grid-template-columns: repeat(2, 1fr);
   margin-left:0px;
