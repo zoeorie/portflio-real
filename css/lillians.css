@@ -69,6 +69,29 @@ font-style: italic;
   font-style: normal;
   margin-top: 5px;
 }
+ /* GSHOCK BELOW */
+.gs-2 {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.gs-2 video {
+  width:100%;
+}
+.gs-2 {
+  margin-bottom:20px;
+}
+.gs-type {
+  margin-left:20px;
+  margin-right:20px;
+}
+  .gs-stories {
+  margin-bottom:60px;
+}
+  .gs-stories {
+  width:100%;
+}
+
  /* DC BELOW */
 .dc-header-img {
   width:100%;
@@ -490,6 +513,15 @@ margin-bottom:20px;
   margin-left:20px;
   margin-right:20px;
 }
+
+.gs-vid-right video {
+        width: 50%;
+        flex: 1;
+        height: 450px;
+        object-fit: cover;
+        overflow: hidden;
+}
+
  /* DUCK POND BELOW */
  .dp-img img {
   width:100%;
@@ -2258,6 +2290,34 @@ h1 {
 h2 {
   font-size:26px;
 }
+
+ /* GSHOCK BELOW */
+ .gs-2 {
+    flex-direction:row;
+    align-items: center;
+  }
+ .gs-2 video {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 450px;           /* set same height for both */
+    object-fit: cover; 
+    overflow:hidden;
+  }
+  .gs-2 img {
+    width:50%;
+    flex: 1;                 /* take equal space */           /* fill flex item */
+    height: 450px;           /* set same height for both */
+    object-fit: cover; 
+  }
+  .gs-stories img {
+  margin-bottom:80px;
+}
+.gs-type {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+
 
  /* DC BELOW */
   .dc-2 {
