@@ -51,6 +51,41 @@
       <section class="description">
         <h1 class="margin-h1">More Work</h1>
         </section>
+
+
+
+        <img src="images/pf-visual-revamp.jpg" class="pf-mb" alt="moodboard including fruit and floral textures, makeup product and texture close-ups, graphics that annotate product ingredients ">
+          <div class="pf-type">
+            <h2>Physicians Formula</h2>
+            <p>At 5WPR, I was tasked with developing a new social visual direction for former client Physician’s Formula, a physician-backed clean beauty brand. Existing social content felt dated, lacked visual cohesion, and wasn’t effectively highlighting key brand pillars such as skin-first beauty and hypoallergenic formulation. I developed a moodboard focusing on ingredient education, product and texture focuses, and skin-first photography. Organic elements such as fruit and floral textures are also included to add depth to the overall visual style, displaying vibrance, approachability, and a commitment to clean ingredients, all values that are so central to the brand.
+            </p>
+          </div>
+
+
+            <div class="accordion">
+          
+              <div class="accordion-divider"></div>
+          
+              <button class="accordion-header" aria-expanded="false">
+                View Moodboard Text
+                <span class="accordion-icon">+</span>
+              </button>
+          
+              <div class="accordion-content">
+                  <div class="inner1">
+                    <p>
+                    <em>Product Focuses:</em> This type of photo styling can be used to showcase specific details about the products, their packaging and how they interact with the skin. These are ideal when text will be layered within frame. 
+                  </p>
+                  <p><em>Texture as Form - Close-Ups: </em> Close-up product textures help highlight formula details and work well as background imagery.</p>
+                  <p><em>Supporting Textures - Fruit & Floral:</em> These textures feel like a more unique take on the sensorial posts we’ve been seeing in the beauty space. They position the brand as premium without losing the warm/approachable feeling.These fruit and floral/plant textures bring a freshness to the content and support the brand feelings of youthfulness and vibrancy.</p>
+                  <p><em>Educational - Ingredients:</em> Incorporating a handwritten element for information and ingredients makes the visual feel more dynamic. This is an effectivue way to balance product education and approachability.</p>
+                </div>
+              </div>
+          
+              <div class="accordion-divider"></div>
+          
+            </div>
+          
       
 <section class="doms">
   <div class="doms-left">
@@ -122,4 +157,29 @@
 <footer>
   <p>Design & Development by Zoe Orie</p>
 </footer>
+
+
+
+<script>
+  document.querySelectorAll(".accordion").forEach((accordion) => {
+    const header = accordion.querySelector(".accordion-header");
+    const content = accordion.querySelector(".accordion-content");
+    const icon = accordion.querySelector(".accordion-icon");
+
+    header.addEventListener("click", () => {
+      const isOpen = header.getAttribute("aria-expanded") === "true";
+
+      header.setAttribute("aria-expanded", !isOpen);
+
+      if (!isOpen) {
+        content.style.maxHeight = content.scrollHeight + "px";
+        icon.textContent = "–";
+      } else {
+        content.style.maxHeight = "0px";
+        icon.textContent = "+";
+      }
+    });
+  });
+</script>
+
 </body>

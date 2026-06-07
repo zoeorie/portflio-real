@@ -124,7 +124,7 @@ margin-bottom:60px;
   width:100%;
 }
 .dc-3 {
-  margin-bottom:60px;
+  margin-bottom:20px;
 }
 .dc-social-gallery {
   width:100%;
@@ -393,6 +393,64 @@ nav {
 
 
    /* FUN STUFF BELOW */
+   .accordion {
+    font-family: "figtree", sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:40px;
+  }
+  
+  /* full-width within mobile padding system */
+  .accordion-divider {
+    height: 1px;
+    background: #000;
+    width: 100%;
+  }
+  
+  /* header */
+  .accordion-header {
+    width: 100%;
+    background: none;
+    border: none;
+  
+    padding: 16px 0;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+  
+    cursor: pointer;
+    font-family: "figtree", sans-serif;
+  }
+  
+  /* icon */
+  .accordion-icon {
+    font-size: 24px;
+    line-height: 1;
+  }
+  
+  /* animation */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  
+  .accordion-inner {
+    padding: 10px 0 18px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000;
+  }
+
+
+
+
 .dlc-fun {
   margin-bottom:40px;
 }
@@ -446,6 +504,21 @@ nav {
   gap:20px;
   flex-direction:column;
   margin-bottom:40px;
+}
+.pf-type {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.pf-type p {
+  font-family: "figtree", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color:#000000;
+  line-height:25px;
+  max-width:550px;
+  margin-top:5px;
 }
 .dlc-type button:hover {
   background-color:#ffffff;
@@ -524,6 +597,9 @@ margin-bottom:20px;
         height: 450px;
         object-fit: cover;
         overflow: hidden;
+}
+.pf-mb {
+  width:100%;
 }
 
  /* DUCK POND BELOW */
@@ -2342,7 +2418,7 @@ h2 {
   }
     .dc-3 {
     flex-direction:row;
-    margin-bottom:80px;
+    margin-bottom:20px;
     overflow:hidden;
   }
  .dc-3 img {
@@ -2402,6 +2478,11 @@ gap:20px;
         margin-bottom:60px;
         gap:40px;
       }
+      .pf-type {
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom:40px;
+      }
       .left-side-dlc img {
         width: calc(33.33% - 20px);
         height:auto;
@@ -2455,6 +2536,11 @@ gap:20px;
       }
 .dlc-type {
   margin-top:0px;
+}
+.accordion {
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:60px;
 }
 
  /* STATIC KINETIC */
