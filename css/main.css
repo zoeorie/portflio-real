@@ -202,7 +202,7 @@ text-decoration-style: dotted;
   max-width:550px;
   color:#000000;
   margin-top:5px;
-  font-size:18px;
+  font-size:14px;
   }
   .contact-left {
     font-family: "soleil", sans-serif;
@@ -556,7 +556,7 @@ font-style: italic;
       font-size:55px;
     }
 .top {
-  margin-bottom:50px;
+  margin-bottom:10px;
 }
 .instagram-link {
   margin-left: -30px;
@@ -678,7 +678,7 @@ flex-direction: row;
     }
     .top {
       gap:80px;
-      margin-top:100px;
+      margin-top:50px;
     }
     .contact-left {
       padding-top:0px;
