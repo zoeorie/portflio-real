@@ -1301,6 +1301,7 @@ button.slider-prev i, button.slider-next i {
 }
 .clouro-walkthrough {
   margin-top:20px;
+  margin-bottom:40px;
 }
 .gallery-display {
   margin: 20px;
@@ -2438,6 +2439,7 @@ h2 {
   margin-bottom:80px;
 }
 .process-dc-type{
+  margin-top:40px;
   margin-left:0px;
   margin-right:0px;
 }
@@ -3059,6 +3061,9 @@ max-width:650px;
     overflow:hidden; 
     align-items:center;    /* fixed row height */
   }
+  .clouro-walkthrough {
+  margin-bottom:80px;
+}
 
   .clouro-marketing-images img {
     flex: 1;            /* equal width for each image */
