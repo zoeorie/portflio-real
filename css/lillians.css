@@ -1577,12 +1577,19 @@ width: 100%;
   margin-left:20px;
   margin-right:20px;
   margin-top:20px;
-  margin-bottom:80px;
+  margin-bottom:40px;
 }
 .uconna-z2 video {
 width:100%;
 }
-
+.ucf-book {
+  width:100%;
+  margin-bottom:40px;
+}
+.ucf-spreads {
+  width:100%;
+  margin-bottom:80px;
+}
  /* NO CURFEW BELOW */
 
 .description-noc p {
@@ -2683,10 +2690,10 @@ width:100%;
         margin-bottom:50px;
       }
       .uconn-z1 img {
-        width:50%;
+        width:100%;
       }
       .uconna-z2 video {
-        width:35%;
+        width:50%;
       }
       .uconna-z2 {
         display:flex;
@@ -2695,9 +2702,9 @@ width:100%;
         align-items:center;
         justify-content:space-evenly;
       }
-
-
-
+.ucf-book {
+  margin-bottom:80px;
+}
 
        /* NO CURFEW BELOW */
   .noc-1 {
