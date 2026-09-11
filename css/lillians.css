@@ -1739,7 +1739,7 @@ width:100%;
     max-width:550px;
 }
 .noc-social {
-  margin-bottom:40px;
+  margin-bottom:20px;
 }
 .noc-social img {
   width:100%;
@@ -1771,6 +1771,7 @@ width:100%;
   color: #000000;
   max-width:550px;
   line-height: 25px;
+  margin-bottom:40px;
 }
 .noc-app {
   margin-bottom:20px;
@@ -1877,6 +1878,14 @@ margin-bottom:30px;
 }
 #noc-vid2 {
   margin-bottom:40px;
+}
+.noc-2 video {
+width:100%;
+margin-bottom:20px;
+}
+.noc-2 img {
+  width:100%;
+  margin-bottom:20px;
 }
 
 
@@ -2712,13 +2721,13 @@ width:100%;
     gap: 20px;
     width: 100%;
     overflow: hidden;      /* prevent images from spilling out */
-    margin: 0 auto;        /* center container */
+    margin: 0 auto;   
+    margin-top:20px;     /* center container */
   }
 
   .noc-1 img {
     flex: 1;
-    height: auto;           /* let height scale proportionally */
-    max-height: 440px;      /* optional: cap image height */
+    height: auto;           /* let height scale proportionally */    /* optional: cap image height */
     object-fit: cover;
   }
  .noc-logos {
@@ -2785,9 +2794,6 @@ width:100%;
   margin-right:0px;
   margin-left:0px;
 }
-.noc-social {
-  margin-bottom:80px;
-}
 .noc-social img {
   width:100%;
 }
@@ -2798,7 +2804,7 @@ width:100%;
   margin-left:0px;
 }
 .noc-app {
-  margin-bottom:40px;
+  margin-bottom:20px;
   margin-left:0px;
   margin-right:0px;
   margin-top:80px;
@@ -2812,6 +2818,26 @@ width:100%;
 }
 #noc-vid2 {
   margin-bottom:80px;
+}
+.noc-2 video {
+ flex: 65;
+  min-width: 0;
+  height: auto;
+  align-self: flex-start;
+  margin-bottom:0px;
+}
+.noc-2 img {
+  flex: 35;
+  min-width: 0;
+  height: auto;
+  object-fit: cover;
+  margin-bottom:0px;
+}
+
+.noc-2 {
+  display:flex;
+  flex-direction:row;
+  gap:20px;
 }
 .about-page,
 .about-page html {
