@@ -2240,6 +2240,12 @@ width:100%;
 }
 .mark-images {
 }
+.noc-cards-type {
+  margin-top:60px;
+  margin-bottom:60px;
+  margin-left:20px;
+  margin-right:20px;
+}
 
  /* POPUP*/
 /* Popup overlay */
@@ -2926,7 +2932,12 @@ width:100%;
   display: block;
   margin: 0;
 }
-
+.noc-cards-type {
+  margin-top:80px;
+  margin-bottom:80px;
+  margin-left:0px;
+  margin-right:0px;
+}
 .pattern-noc {
   flex: 9 1 0;
   min-width: 0;
